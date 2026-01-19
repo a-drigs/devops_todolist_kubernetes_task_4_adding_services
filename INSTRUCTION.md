@@ -1,7 +1,7 @@
 kubectl apply -f .infrastructure/namespace.yml
 kubectl apply -f .infrastructure/todoapp-pod.yml -n todoapp
-kubectl apply -f .infrastructure/busybox.yml.yml -n todoapp
-kubectl apply -f .infrastructure/clusterIp.yml -n todoapp
+kubectl apply -f .infrastructure/busybox.yml -n todoapp
+kubectl apply -f .infrastructure/clusterIp-service.yml -n todoapp
 kubectl apply -f .infrastructure/nodeport-service.yml -n todoapp
 
 TEST CLUSTERIP_SERVICE:

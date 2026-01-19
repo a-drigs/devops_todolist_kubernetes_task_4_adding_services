@@ -12,6 +12,10 @@ spec:
     env:
     - name: PYTHONUNBUFFERED
       value: "1"
+    - name: DEBUG
+      value: "TRUE"
+    - name: SECRET_KEY
+      value: "@e2(yx)v&tgh3_s=0yja-i!dpebxsz^dg47x)-k&kq_3zf*9e*"
     ports:
     - containerPort: 8080
     livenessProbe:
